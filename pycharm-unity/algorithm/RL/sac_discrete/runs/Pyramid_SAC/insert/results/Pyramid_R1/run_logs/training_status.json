@@ -1,0 +1,65 @@
+{
+    "Pyramids": {
+        "checkpoints": [
+            {
+                "steps": 8499960,
+                "file_path": "results\\Pyramid_R1\\Pyramids\\Pyramids-8499960.onnx",
+                "reward": null,
+                "creation_time": 1687791351.0993695,
+                "auxillary_file_paths": [
+                    "results\\Pyramid_R1\\Pyramids\\Pyramids-8499960.pt"
+                ]
+            },
+            {
+                "steps": 8999914,
+                "file_path": "results\\Pyramid_R1\\Pyramids\\Pyramids-8999914.onnx",
+                "reward": -0.4183000363409519,
+                "creation_time": 1687792061.0023518,
+                "auxillary_file_paths": [
+                    "results\\Pyramid_R1\\Pyramids\\Pyramids-8999914.pt"
+                ]
+            },
+            {
+                "steps": 9499877,
+                "file_path": "results\\Pyramid_R1\\Pyramids\\Pyramids-9499877.onnx",
+                "reward": null,
+                "creation_time": 1687792776.3654099,
+                "auxillary_file_paths": [
+                    "results\\Pyramid_R1\\Pyramids\\Pyramids-9499877.pt"
+                ]
+            },
+            {
+                "steps": 9999923,
+                "file_path": "results\\Pyramid_R1\\Pyramids\\Pyramids-9999923.onnx",
+                "reward": -0.9994000482062498,
+                "creation_time": 1687793486.8023052,
+                "auxillary_file_paths": [
+                    "results\\Pyramid_R1\\Pyramids\\Pyramids-9999923.pt"
+                ]
+            },
+            {
+                "steps": 10000051,
+                "file_path": "results\\Pyramid_R1\\Pyramids\\Pyramids-10000051.onnx",
+                "reward": -0.9994000482062498,
+                "creation_time": 1687793486.9100227,
+                "auxillary_file_paths": [
+                    "results\\Pyramid_R1\\Pyramids\\Pyramids-10000051.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 10000051,
+            "file_path": "results\\Pyramid_R1\\Pyramids.onnx",
+            "reward": -0.9994000482062498,
+            "creation_time": 1687793486.9100227,
+            "auxillary_file_paths": [
+                "results\\Pyramid_R1\\Pyramids\\Pyramids-10000051.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.30.0",
+        "torch_version": "1.12.1"
+    }
+}

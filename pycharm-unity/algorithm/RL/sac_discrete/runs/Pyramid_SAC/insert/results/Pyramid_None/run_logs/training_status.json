@@ -1,0 +1,65 @@
+{
+    "Pyramids": {
+        "checkpoints": [
+            {
+                "steps": 1499896,
+                "file_path": "results\\Pyramid_None\\Pyramids\\Pyramids-1499896.onnx",
+                "reward": -1.0000000521540642,
+                "creation_time": 1687775055.2025185,
+                "auxillary_file_paths": [
+                    "results\\Pyramid_None\\Pyramids\\Pyramids-1499896.pt"
+                ]
+            },
+            {
+                "steps": 1999936,
+                "file_path": "results\\Pyramid_None\\Pyramids\\Pyramids-1999936.onnx",
+                "reward": null,
+                "creation_time": 1687775614.9400573,
+                "auxillary_file_paths": [
+                    "results\\Pyramid_None\\Pyramids\\Pyramids-1999936.pt"
+                ]
+            },
+            {
+                "steps": 2499968,
+                "file_path": "results\\Pyramid_None\\Pyramids\\Pyramids-2499968.onnx",
+                "reward": null,
+                "creation_time": 1687776545.9882016,
+                "auxillary_file_paths": [
+                    "results\\Pyramid_None\\Pyramids\\Pyramids-2499968.pt"
+                ]
+            },
+            {
+                "steps": 2999896,
+                "file_path": "results\\Pyramid_None\\Pyramids\\Pyramids-2999896.onnx",
+                "reward": -1.0000000521540642,
+                "creation_time": 1687778438.3289468,
+                "auxillary_file_paths": [
+                    "results\\Pyramid_None\\Pyramids\\Pyramids-2999896.pt"
+                ]
+            },
+            {
+                "steps": 3370752,
+                "file_path": "results\\Pyramid_None\\Pyramids\\Pyramids-3370752.onnx",
+                "reward": null,
+                "creation_time": 1687778890.957024,
+                "auxillary_file_paths": [
+                    "results\\Pyramid_None\\Pyramids\\Pyramids-3370752.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 3370752,
+            "file_path": "results\\Pyramid_None\\Pyramids.onnx",
+            "reward": null,
+            "creation_time": 1687778890.957024,
+            "auxillary_file_paths": [
+                "results\\Pyramid_None\\Pyramids\\Pyramids-3370752.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.30.0",
+        "torch_version": "1.12.1"
+    }
+}

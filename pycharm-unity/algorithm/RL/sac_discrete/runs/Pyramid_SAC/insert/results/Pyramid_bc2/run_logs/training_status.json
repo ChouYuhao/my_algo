@@ -1,0 +1,56 @@
+{
+    "Pyramids": {
+        "checkpoints": [
+            {
+                "steps": 499896,
+                "file_path": "results\\Pyramid_bc2\\Pyramids\\Pyramids-499896.onnx",
+                "reward": -1.0000000521540642,
+                "creation_time": 1687614951.7795281,
+                "auxillary_file_paths": [
+                    "results\\Pyramid_bc2\\Pyramids\\Pyramids-499896.pt"
+                ]
+            },
+            {
+                "steps": 999936,
+                "file_path": "results\\Pyramid_bc2\\Pyramids\\Pyramids-999936.onnx",
+                "reward": -0.9996000528335571,
+                "creation_time": 1687617724.6387851,
+                "auxillary_file_paths": [
+                    "results\\Pyramid_bc2\\Pyramids\\Pyramids-999936.pt"
+                ]
+            },
+            {
+                "steps": 1000064,
+                "file_path": "results\\Pyramid_bc2\\Pyramids\\Pyramids-1000064.onnx",
+                "reward": -0.9996000528335571,
+                "creation_time": 1687617724.7907782,
+                "auxillary_file_paths": [
+                    "results\\Pyramid_bc2\\Pyramids\\Pyramids-1000064.pt"
+                ]
+            },
+            {
+                "steps": 1000064,
+                "file_path": "results\\Pyramid_bc2\\Pyramids\\Pyramids-1000064.onnx",
+                "reward": null,
+                "creation_time": 1687668993.2710505,
+                "auxillary_file_paths": [
+                    "results\\Pyramid_bc2\\Pyramids\\Pyramids-1000064.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 1000064,
+            "file_path": "results\\Pyramid_bc2\\Pyramids.onnx",
+            "reward": null,
+            "creation_time": 1687668993.2710505,
+            "auxillary_file_paths": [
+                "results\\Pyramid_bc2\\Pyramids\\Pyramids-1000064.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.30.0",
+        "torch_version": "1.12.1"
+    }
+}

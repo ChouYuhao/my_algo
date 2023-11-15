@@ -1,0 +1,20 @@
+{
+    "Pyramids": {
+        "checkpoints": [
+            {
+                "steps": 499998,
+                "file_path": "results\\Pyramid\\Pyramids\\Pyramids-499998.onnx",
+                "reward": -1.0000000447034836,
+                "creation_time": 1687600183.3844182,
+                "auxillary_file_paths": [
+                    "results\\Pyramid\\Pyramids\\Pyramids-499998.pt"
+                ]
+            }
+        ]
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.30.0",
+        "torch_version": "1.12.1"
+    }
+}

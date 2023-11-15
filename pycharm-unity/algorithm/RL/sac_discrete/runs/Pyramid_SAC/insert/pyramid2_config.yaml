@@ -1,0 +1,30 @@
+behaviors:
+  Pyramids:
+    trainer_type: ppo
+    hyperparameters:
+      batch_size: 1024
+      buffer_size: 10240
+      learning_rate: 3.0e-3
+#      learning_rate: 3.0e-4
+      epsilon: 0.2
+      beta: 5.0e-3
+      lambd: 0.99
+      learning_rate_schedule: linear
+    network_settings:
+      normalize: false
+      hidden_units: 128
+      num_layers: 2
+    reward_signals:
+#      extrinsic:
+#        strength: 1.0
+#        gamma: 0.99
+      gail:
+        strength: 0.25
+        demo_path: E:\705(3)\Paper\experience\ml-agents-develop\Project\Assets\ML-Agents\Examples\Pyramids\Demos\ExpertPyramid.demo
+#    behavioral_cloning:
+#      demo_path: E:\705(3)\Paper\experience\ml-agents-develop\Project\Assets\ML-Agents\Examples\Pyramids\Demos\ExpertPyramid.demo
+#      strength: 0.6
+
+    max_steps: 10000000
+    time_horizon: 128
+    summary_freq: 20000
